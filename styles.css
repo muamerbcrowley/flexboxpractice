@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+h2 {
+  margin-bottom: 0px;
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+button {
+  width: max-content;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+}
+figcaption {
+  text-align: end;
+}
+h3 {
+  margin: 0;
+  font-size: 30px;
+  color: #f9faf8;
+}
+.logo {
+  height: 100%;
+}
+.header {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  background-color: #1f2937;
+  margin-bottom: 0;
+  height: 400px !important;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #f9faf8;
+}
+.links {
+  display: flex;
+  gap: 15px;
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 280px;
+  margin-right: 280px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.paras {
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  display: flex;
+}
+.information {
+  padding: 40px 20px 20px 40px;
+
+  display: flex;
+  justify-content: center;
+  height: 400px !important;
+}
+.card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.box {
+  height: 250px;
+  width: 200px;
+  border: 3px solid blue;
+  border-radius: 10%;
+}
+.quote {
+  display: flex;
+  height: 400px !important;
+  background-color: #e5e7eb;
+  justify-content: center;
+  align-items: center;
+}
+.quote blockquote {
+  font-size: xx-large;
+  color: #1f2937;
+}
+.infoheader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.action {
+  height: 300px !important;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.space {
+  height: 120px;
+  width: 50%;
+  border: 1px solid #3882f6;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 30px 55px 30px 55px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card p {
+  color: black;
+}
+button {
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid #f9faf8;
+  width: 120px;
+  font-size: 20px;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+.paras button {
+  border: 2px solid #3882f6;
+}
+.footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f2937;
+}
+.footer p {
+  color: #3882f6;
+}
